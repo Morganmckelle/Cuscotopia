@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NewBehaviourScript1 : MonoBehaviour 
+public class FlyScript: MonoBehaviour 
 {
 	private float heightTest = 3f;
 	void Start ()
