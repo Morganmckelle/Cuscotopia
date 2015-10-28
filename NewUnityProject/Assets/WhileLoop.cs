@@ -1,17 +1,34 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class WhileLoop : MonoBehaviour
+public class SingleCharacterScript : MonoBehaviour
 {
-	int cupsInTheSink = 4;
-	
-	
-	void Start ()
+	public class Stuff
 	{
-		while (cupsInTheSink > 0) 
+		public int bullets;
+		public int grenades;
+		public int rockets;
+		
+		public Stuff(int bul, int gre, int roc)
 		{
-			Debug.Log ("I've washed a cup");
-			cupsInTheSink--;
+			bullets = bul;
+			grenades = gre;
+			rockets = roc;
+		}
+		
+		// Constructor
+		public Stuff ()
+		{
+			bullets = 1;
+			grenades = 1;
+			rockets = 1;
 		}
 	}
-} 
+	
+	
+	
+	
+	public Stuff myStuff = new Stuff(10, 7, 25);
+	
+	
+}	
