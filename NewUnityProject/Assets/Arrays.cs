@@ -9,7 +9,7 @@ public class Arrays : MonoBehaviour
 	
 	void Start ()
 	{
-		for
+	
 		
 		
  	}
