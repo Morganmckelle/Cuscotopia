@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DirectionChanger.cs" />
      <Compile Include="Assets\DuckHealthScript.cs" />
+     <Compile Include="Assets\DuckMovement2.cs" />
      <Compile Include="Assets\DuckSpawnScript.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
