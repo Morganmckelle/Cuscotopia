@@ -2,9 +2,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DirectionChanger.cs">
     <Files>
-      <File FileName="Assets/DirectionChanger.cs" Line="31" Column="4" />
+      <File FileName="Assets/DirectionChanger.cs" Line="29" Column="3" />
       <File FileName="Assets/DuckSpawnScript.cs" Line="1" Column="1" />
       <File FileName="Assets/DuckHealthScript.cs" Line="24" Column="2" />
+      <File FileName="Assets/DuckMovement2.cs" Line="10" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
