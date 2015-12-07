@@ -26,20 +26,22 @@ public class Shooter : MonoBehaviour
 				GameManager.OnDuckMiss ();
 			}
 			Vector3 mousePos = Input.mousePosition;
-			mousePos.z =Camera.main.transform.position.z
+			mousePos.z =Camera.main.transform.position.z;
 			
 			if(Physics.Raycast(Camera.main.ScreenToWorldPoint(mousePos),Camera.main.transform.forward, out hit, Mathf.Infinity))
 			{
-				if(Hit.transform.tag== "Duck")
+				if(hit.transform.tag== "Duck")
 				{
 					//use the get componenet in hit to get the duck health script. Using that call the killduck function in the duck health script
+					hit.collider.gameObject.GetComponent<DuckHealthScript>().KillDuck();
 				}
 			}
-			Public void ResetBullets()
-			{
-				bulletAmt = maxBullets;
-			}
+			
 		}
 	}
 
+		public void ResetBullets()
+		{
+			bulletAmt = maxBullets;
+		}
 }

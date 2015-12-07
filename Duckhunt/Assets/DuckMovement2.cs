@@ -42,7 +42,7 @@ public class DuckMovement2 : MonoBehaviour {
 	}
 	public void StopMovement()
 	{
-		DirectionChanger = new Vector3 (0, 0, 0);
+		direction = new Vector3 (0, 0, 0);
 	}
 
 	public void StartFall()

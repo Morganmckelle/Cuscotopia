@@ -3,14 +3,17 @@ using System.Collections;
 
 public class DogControl : MonoBehaviour 
 {
-	Animation anim;
+	Animator anim;
 
 	// Use this for initialization
 	void Start () 
 	{
 		//use getcomponent to get animator
+		
+		anim= GetComponent<Animator>();
 		GameManager.OnDuckDeath += PlayDuck;
 		GameManager.OnDuckFlyAway += PlayLaugh;
+		
 
 	}
 	
@@ -25,11 +28,11 @@ public class DogControl : MonoBehaviour
 	}
 	public void PlayLaugh()
 	{
-		anim.play ("DogLaughAnim");
+		anim.Play ("DogLaughAnim");
 	}
 	public void PlayDuck()
 	{
-		Anim.play ("DogDuckAnim");
+		anim.Play ("DogDuckAnim");
 	}
 
 }

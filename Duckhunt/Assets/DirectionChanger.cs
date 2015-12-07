@@ -39,10 +39,10 @@ public class DirectionChanger : MonoBehaviour {
 	}
 	public void TurnOff()
 	{
-		gameObject.activeSelf (false);
+		gameObject.SetActive (false);
 	}
 	public void TurnOn()
 	{
-		gameObject.activeSelf (true);
+		gameObject.SetActive (true);
 	}
 }
