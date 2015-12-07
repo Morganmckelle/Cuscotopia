@@ -6,9 +6,10 @@ public class DuckSpawnScript : MonoBehaviour {
 
 
 	// Use this for initialization
-	//void Start () {
-	
-	//}
+	void Start () 
+	{
+		GameManager.OnSpawnDucks += SpawnDuck;
+	}
 	
 	// Update is called once per frame
 	//void Update () {

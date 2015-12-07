@@ -47,9 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\DirectionChanger.cs" />
+     <Compile Include="Assets\DogControl.cs" />
      <Compile Include="Assets\DuckHealthScript.cs" />
      <Compile Include="Assets\DuckMovement2.cs" />
      <Compile Include="Assets\DuckSpawnScript.cs" />
+     <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\Shooter.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
