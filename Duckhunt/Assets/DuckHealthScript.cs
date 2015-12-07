@@ -10,7 +10,7 @@ public class DuckHealthScript : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		//use get component to get the animator and assign to anim
+		anim= GetComponent<Animator>();
 		GameManager.OnDuckMiss += MakeInvincible;
 		GameManager.OnDuckShot += MakeInvincible;
 	}
@@ -26,6 +26,7 @@ public class DuckHealthScript : MonoBehaviour
 		if(hit.tag == "Kill Zone")
 		{
 			Destroy(this.gameObject);
+			GameManager.OnDuckDeath();
 		}
 		if(hit.tag == "FlyZone")
 		{
@@ -40,6 +41,7 @@ public class DuckHealthScript : MonoBehaviour
 		if (isInvincible == false) 
 		{
 			anim.Play ("DuckDead");
+			GameManager.OnDuckShot();
 		}
 	}
 	public void MakeInvincible()

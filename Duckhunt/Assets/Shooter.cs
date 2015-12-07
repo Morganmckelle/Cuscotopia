@@ -33,7 +33,7 @@ public class Shooter : MonoBehaviour
 				if(hit.transform.tag== "Duck")
 				{
 					//use the get componenet in hit to get the duck health script. Using that call the killduck function in the duck health script
-					hit.collider.gameObject.GetComponent<DuckHealthScript>().KillDuck();
+					hit.transform.GetComponent<DuckHealthScript>().KillDuck();
 				}
 			}
 			

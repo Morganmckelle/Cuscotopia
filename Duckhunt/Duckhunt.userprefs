@@ -1,11 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DuckMovement2.cs">
     <Files>
-      <File FileName="Assets/DirectionChanger.cs" Line="29" Column="3" />
+      <File FileName="Assets/DirectionChanger.cs" Line="38" Column="4" />
       <File FileName="Assets/DuckSpawnScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/DuckHealthScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/DuckMovement2.cs" Line="1" Column="1" />
+      <File FileName="Assets/DuckHealthScript.cs" Line="13" Column="34" />
+      <File FileName="Assets/DuckMovement2.cs" Line="38" Column="4" />
+      <File FileName="Assets/Shooter.cs" Line="37" Column="6" />
+      <File FileName="Assets/GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/DogControl.cs" Line="13" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
